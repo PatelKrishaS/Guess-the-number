@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    height: 100%;
+    width: 100%;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    /* max-width: 900px; */
+
+
+}
+
+
+body{
+  background-color: rgb(87, 79, 79);
+    color: #fff;
+}
+
+h1{
+  background-color: black;
+}
+
+p{
+  font-size: 19px;
+  margin-top: 30px;
+}
+
+/* #heading{
+  font-weight: 100;
+  background-color: rgb(87, 79, 79);
+  font-size: 80px;
+  margin-top: 40px;
+} */
+
+.form_container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  
+}
+
+input{
+  margin: 0 auto;
+  width: 350px;
+  height: 40px;
+  padding:6px 10px;
+  border:5px solid rgb(56, 52, 52);
+  border-radius:4px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+label{
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+/* button{
+  margin: 0 auto;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+
+} */
+
+#submit{
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color:black;
+  color: white;
+  border: transparent solid 2px;
+  padding:15px 35px;
+  border-radius: 8px;
+  transition: 0.3s ease-in ;
+  
+} 
+
+#submit:hover{
+  background-color:gray;
+  border: 2px solid #ccc;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
